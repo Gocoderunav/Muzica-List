@@ -1,0 +1,177 @@
+:root {
+    --black: #191414;
+    --green: #1db954;
+    --white: #ffffff;
+    --grey: #989898;
+  }
+  
+  .profile {
+    background-color: var(--black);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profilePhoto {
+    max-width: 8rem;
+    max-height: 8rem;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .profilePhotoIMG {
+    width: 100%;
+  }
+  
+  .profileName {
+    font-size: 1rem;
+  }
+  
+  .profile-CreateLink {
+    position: relative;
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+  }
+  
+  .profile-CreateLink-button {
+    background-color: var(--white);
+    color: black;
+    width: 15rem;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+  }
+  
+  .profile-CreateLink-button {
+    background-color: var(--white);
+    color: black;
+    width: 15rem;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+   
+    box-shadow: none; /* Initial state with no shadow */
+  }
+  
+  .profile-CreateLink-button:hover {
+   color:black;
+   transition: 0.6s;
+  }
+  
+  .profile-CreateLink-button:active {
+    box-shadow: none; /* Remove shadow when clicked */
+  }
+  
+  .bsds:hover{
+  background-color: rgb(62,62,62);
+  color:white;
+  cursor:pointer;
+  transform: sacle(1.03);
+  transition: all 1s ease;
+  display:flex;
+  
+  }
+  
+  .authorName {
+    display: inline;
+  }
+  
+  .entries-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .entries-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  
+  .pListTextContainer.pListLink {
+    /* Other button styles */
+    transition: box-shadow 0.3s ease-in-out;
+    font-size: 16px;
+  padding: 10px 20px;
+  }
+  
+  .pListTextContainer.pListLink:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5)!important;
+  }
+  
+  .button-27 {
+    appearance: none;
+    background-color: #000000;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+    will-change: transform;
+  }
+  
+  .button-27:disabled {
+    pointer-events: none;
+  }
+  
+  .button-27:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .button-27:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+  
+  @keyframes buttonAnimation {
+    0% {
+      transform: rotate(0);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .button {
+    animation-name: buttonAnimation;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+  }
+  
+  .button:hover {
+    cursor: pointer;
+  }
+  
+  h3 {
+    color: white;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  h3:hover {
+    color: red;
+  }
+  
